@@ -1,0 +1,32 @@
+---
+title: Latchkey
+slug: latchkey
+summary: Passwordless login that survives the in-app-browser → system-browser cookie-jar handoff — a magic-link flow that keeps working when the OS hands the link off from a webview to the user's real browser.
+role: Software Engineer Intern · Coldwell Banker Indonesia
+timeline: "2026"
+stack:
+  - TypeScript
+  - Node
+  - Fastify
+  - Magic-link auth
+  - SHA-256 tokens
+  - CI · fully tested
+publishedAt: 2026-05-20
+draft: false
+diagram: latchkey
+related:
+  slug: pulse
+  label: Pulse
+  note: The production WhatsApp system this bug was found in, and extracted from.
+highlights:
+  - |-
+    /verify sets no cookie
+    It mints a 10-second, single-use handoff token that rides the URL, the one thing portable across the webview → system-browser jump.
+  - |-
+    SHA-256 token storage, atomic single-use redemption
+    Deterministic O(1) lookup with the raw token never stored; the SQL WHERE clause is the lock, so two racing redemptions can't both win.
+  - |-
+    A small, runnable demo
+    HttpOnly · SameSite=Lax · Secure cookies, uniform 401 on any token failure, fully tested with green CI and no database needed to run.
+repo: https://github.com/kaylaelishevaa/latchkey
+---

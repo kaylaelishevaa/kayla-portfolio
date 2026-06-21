@@ -1,0 +1,30 @@
+---
+title: Real Estate AI Platform
+slug: real-estate-ai
+summary: A production system that turns WhatsApp into a sales pipeline — OpenAI structured-output extraction validated by deterministic code, queue-driven multi-portal sync, and a 45-model Prisma schema.
+role: Software Engineer Intern · Coldwell Banker Indonesia
+timeline: Jan 2026 – Jul 2026
+stack:
+  - TypeScript
+  - NestJS
+  - Fastify
+  - MySQL
+  - Prisma
+  - BullMQ
+  - OpenAI
+  - Structured output
+publishedAt: 2026-05-01
+draft: false
+diagram: architecture
+highlights:
+  - |-
+    Bilingual ID/EN parser that gets the hard cases provably right
+    Price magnitude (6.3M = billions, not millions) and phone numbers normalized across every format.
+  - |-
+    Validates the model's output instead of trusting it
+    Invariants on write-ordering and idempotency stop a flaky LLM from corrupting data.
+  - |-
+    Spends the expensive model only when it changes the answer
+    A framework-agnostic, fully-tested core, with an eval harness that measures correctness.
+repo: https://github.com/kaylaelishevaa/real-estate-ai-platform
+---

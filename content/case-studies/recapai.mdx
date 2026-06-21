@@ -1,0 +1,34 @@
+---
+title: RecapAI
+slug: recapai
+summary: A web app that turns a meeting recording or pasted transcript into structured notes — summary, decisions, action items, follow-ups. Whisper does speech-to-text and GPT-4o the summarization, with a deterministic mock mode so the whole app runs end to end with zero API keys.
+role: Personal project (solo)
+timeline: "2026"
+stack:
+  - React
+  - Vite
+  - Tailwind
+  - FastAPI
+  - Pydantic
+  - PostgreSQL
+  - SQLAlchemy
+  - OpenAI
+  - Docker
+publishedAt: 2026-05-25
+draft: false
+diagram: recap
+highlights:
+  - |-
+    Runs with zero API keys
+    A deterministic mock provider returns fabricated-but-realistic notes, so anyone can run the full upload-to-notes flow offline. Real OpenAI swaps in automatically when a key is set.
+  - |-
+    Hardened against messy LLM output
+    A strict JSON contract in the prompt plus a normalization layer (accepts camelCase or snake_case, strips stray markdown fences, fills defaults) so an off-spec model response never breaks the API.
+  - |-
+    One seam for the model
+    Transcription and summarization are separate services, and provider selection lives in a single module with lazily-built clients, so swapping the STT/LLM or adding speaker diarization is a localized change, not a rewrite.
+  - |-
+    Bilingual by design
+    Three prompt variants (English, Bahasa Indonesia, and mixed code-switching) selected per request, so Indonesian and mixed meetings get correct, language-aware notes.
+repo: https://github.com/kaylaelishevaa/recap-ai
+---

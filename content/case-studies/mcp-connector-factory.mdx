@@ -1,0 +1,29 @@
+---
+title: MCP Connector Factory
+slug: mcp-connector-factory
+summary: One hardened MCP-server skeleton, forked per backend — two Claude custom connectors built from the same codebase, with deliberately different security postures.
+role: Software Engineer Intern · Coldwell Banker Indonesia
+timeline: "2026"
+stack:
+  - Python 3.11
+  - FastAPI
+  - JSON-RPC 2.0
+  - OAuth 2.0 facade
+  - Docker
+  - Cloudflare Tunnel
+  - 348 tests
+publishedAt: 2026-05-15
+draft: false
+diagram: mcp
+highlights:
+  - |-
+    One hardened MCP-server skeleton, forked per backend
+    Around 80–95% identical across both forks, proving it's a template and not a one-off.
+  - |-
+    Two deliberate security postures
+    Lark Bitable writes live on an admin tier; the NestJS REST connector is read-only, with writes behind two kill switches and a dry-run default.
+  - |-
+    348 tests, fully mocked
+    Constant-time bearer auth, JSON-line audit logging, and a hand-rolled JSON-RPC 2.0 layer with no MCP SDK dependency.
+repo: https://github.com/kaylaelishevaa/mcp-connector-factory
+---

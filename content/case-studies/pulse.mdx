@@ -1,0 +1,35 @@
+---
+title: Pulse
+slug: pulse
+summary: A real-time WhatsApp oversight feed — every inbound line captured exactly-once, triaged urgent or routine, and pushed to one operator in seconds, even when the app is closed.
+role: Software Engineer Intern · Coldwell Banker Indonesia
+timeline: "2026"
+stack:
+  - TypeScript
+  - Fastify
+  - PostgreSQL
+  - Redis
+  - WebSocket
+  - Next.js PWA
+  - FCM push
+  - Docker · nginx
+  - Vitest · Testcontainers
+publishedAt: 2026-05-10
+draft: false
+diagram: pulse
+related:
+  slug: latchkey
+  label: Latchkey
+  note: The magic-link handoff bug found here, isolated into a small, runnable open-source demo.
+highlights:
+  - |-
+    Captures every message exactly-once into Postgres
+    A stateful listener retries-then-drops on a database hiccup instead of crashing.
+  - |-
+    Idempotent fan-out to WebSocket, mobile push, and WhatsApp alert
+    A restart never double-notifies; capture and serving run as two processes that fail independently.
+  - |-
+    ~460 automated tests against a real Postgres, not mocks
+    Run via Testcontainers, plus a fail-closed whitelist that stopped 2,725 junk messages from a silent data leak.
+repo: https://github.com/kaylaelishevaa/pulse-case-study
+---
