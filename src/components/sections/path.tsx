@@ -3,40 +3,33 @@ import { SectionHeader } from "@/components/section-header";
 
 const entries = [
   {
-    id: "purwadhika",
-    dates: "2024",
-    institution: "Purwadhika School",
-    role: "Full-Stack Bootcamp",
-    note: "Certified",
-  },
-  {
-    id: "monash-college",
-    dates: "2025 – 2026",
-    institution: "Monash College",
-    role: "Diploma · CS",
-    note: "Top of cohort · Academic Merit Award",
-  },
-  {
-    id: "coldwell-banker",
-    dates: "Jan 2026 – Jul 2026",
-    institution: "Coldwell Banker Indonesia",
-    role: "Software Engineer Intern",
-    note: null,
-  },
-  {
     id: "monash-university",
     dates: "Starting Jul 2026",
     institution: "Monash University Malaysia",
     role: "Bachelor of Computer Science",
     note: null,
   },
+  {
+    id: "monash-college",
+    dates: "Feb 2025 – Feb 2026",
+    institution: "Monash College",
+    role: "Diploma of IT, Computer Science",
+    note: "Top of cohort · Academic Merit Award",
+  },
+  {
+    id: "purwadhika",
+    dates: "Oct 2024 – Apr 2025",
+    institution: "Purwadhika School",
+    role: "Full Stack Web Development Bootcamp",
+    note: "Certified",
+  },
 ] as const;
 
 export function PathSection() {
   return (
-    <section id="path" className="border-rule border-b">
+    <section id="education" className="border-rule border-b">
       <div className="mx-auto max-w-6xl px-6 py-20 sm:px-8 sm:py-28">
-        <SectionHeader label="Path" />
+        <SectionHeader label="Education" />
         <ol className="space-y-8 sm:space-y-10">
           {entries.map((entry, i) => (
             <li key={entry.id}>

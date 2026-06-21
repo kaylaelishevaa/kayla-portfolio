@@ -40,7 +40,7 @@ export function GET() {
             background: "#5A574F",
           }}
         />
-        <span style={{ display: "flex" }}>available · dec 2026 → feb 2027</span>
+        <span style={{ display: "flex" }}>open to swe internships</span>
       </div>
 
       <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
