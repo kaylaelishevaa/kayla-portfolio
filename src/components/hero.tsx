@@ -26,7 +26,7 @@ export function Hero() {
 
           <Reveal delay={240}>
             <p className="text-ink-soft mt-5 font-mono text-[12px] tracking-wide">
-              Software engineer intern @ Coldwell Banker Indonesia
+              Software Engineer Intern @ Coldwell Banker Indonesia
             </p>
           </Reveal>
 
