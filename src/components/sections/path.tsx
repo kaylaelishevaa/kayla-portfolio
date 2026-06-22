@@ -18,7 +18,7 @@ const entries = [
   },
   {
     id: "purwadhika",
-    dates: "Oct 2024 – Jan 2025",
+    dates: "Oct 2024 – Feb 2025",
     institution: "Purwadhika School",
     role: "Full Stack Web Development Bootcamp",
     note: "Certified",
