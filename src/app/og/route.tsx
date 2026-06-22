@@ -96,7 +96,7 @@ export function GET() {
           letterSpacing: "0.04em",
         }}
       >
-        <span style={{ display: "flex" }}>kaylaelishevasiwi.com</span>
+        <span style={{ display: "flex" }}>kaylasiwi.com</span>
         <span style={{ display: "flex", color: "#0F4C5C" }}>↗</span>
       </div>
     </div>,

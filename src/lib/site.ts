@@ -2,7 +2,7 @@ export const site = {
   name: "Kayla Elisheva Siwi",
   shortName: "Kayla Elisheva Siwi",
   role: "CS student building AI in production",
-  url: "https://kaylaelishevasiwi.com",
+  url: "https://kaylasiwi.com",
   email: "kaykayelisheva@gmail.com",
   github: "https://github.com/kaylaelishevaa",
   linkedin: "https://www.linkedin.com/in/kayla-elisheva-siwi/",
