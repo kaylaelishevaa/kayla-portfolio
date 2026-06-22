@@ -11,7 +11,7 @@ const groups = [
   { name: "Async", items: ["BullMQ", "WebSockets", "background workers"] },
   {
     name: "AI / LLM",
-    items: ["Anthropic (Claude)", "OpenAI", "Google Gemini", "tool-calling", "MCP"],
+    items: ["Anthropic (Claude)", "OpenAI", "tool-calling", "MCP"],
   },
   {
     name: "Infrastructure",
