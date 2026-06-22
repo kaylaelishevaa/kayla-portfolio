@@ -4,7 +4,7 @@ import { SectionHeader } from "@/components/section-header";
 const entries = [
   {
     id: "monash-university",
-    dates: "Jul 2026 – Jun 2028 (expected)",
+    dates: "Jul 2026 – Jul 2028 (expected)",
     institution: "Monash University Malaysia",
     role: "Bachelor of Computer Science",
     note: null,
