@@ -4,21 +4,21 @@ import { SectionHeader } from "@/components/section-header";
 const entries = [
   {
     id: "monash-university",
-    dates: "Starting Jul 2026",
+    dates: "Jul 2026 – Jun 2028 (expected)",
     institution: "Monash University Malaysia",
     role: "Bachelor of Computer Science",
     note: null,
   },
   {
     id: "monash-college",
-    dates: "Feb 2025 – Feb 2026",
+    dates: "Feb 2025 – Jan 2026",
     institution: "Monash College",
     role: "Diploma of IT, Computer Science",
     note: "Top of cohort · Academic Merit Award",
   },
   {
     id: "purwadhika",
-    dates: "Oct 2024 – Apr 2025",
+    dates: "Oct 2024 – Jan 2025",
     institution: "Purwadhika School",
     role: "Full Stack Web Development Bootcamp",
     note: "Certified",

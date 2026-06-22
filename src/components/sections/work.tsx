@@ -17,7 +17,7 @@ export function WorkSection() {
             </h3>
             <p className="text-ink-soft mt-2">Software Engineer Intern</p>
             <p className="text-ink-faint mt-3 font-mono text-[11px] tracking-[0.18em] uppercase">
-              Jan 2026 – Jul 2026
+              Feb 2026 – Jul 2026
             </p>
             <p className="text-ink-faint mt-1 font-mono text-[11px] tracking-[0.18em] uppercase">
               Jakarta
