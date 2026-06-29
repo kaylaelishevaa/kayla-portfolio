@@ -5,7 +5,7 @@ const entries = [
   {
     id: "monash-university",
     dates: "Jul 2026 – Jul 2028 (expected)",
-    institution: "Monash University Malaysia",
+    institution: "Monash University",
     role: "Bachelor of Computer Science",
     note: null,
   },

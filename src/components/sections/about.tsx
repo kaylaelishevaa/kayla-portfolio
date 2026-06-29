@@ -18,7 +18,7 @@ export function AboutSection() {
               it runs on.
             </p>
             <p>
-              I&apos;m also a Computer Science student at Monash University Malaysia, after going
+              I&apos;m also a Computer Science student at Monash University, after going
               deep on full-stack fundamentals at Purwadhika.
             </p>
             <p>

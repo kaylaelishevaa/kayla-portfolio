@@ -80,7 +80,7 @@ export function GET() {
             marginTop: 12,
           }}
         >
-          Computer Science · Monash University Malaysia · Software Engineer Intern at Coldwell Banker
+          Computer Science · Monash University · Software Engineer Intern at Coldwell Banker
           Indonesia.
         </div>
       </div>
