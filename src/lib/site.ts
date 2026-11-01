@@ -8,7 +8,7 @@ export const site = {
   linkedin: "https://www.linkedin.com/in/kayla-elisheva-siwi/",
   resume: "/resume.pdf",
   description:
-    "Computer Science student at Monash University Malaysia and software engineer at Coldwell Banker Indonesia, building AI systems in production.",
+    "Computer Science student at Monash University Malaysia who spent six months as the sole engineer on production LLM systems at Coldwell Banker Indonesia.",
   locales: ["Kuala Lumpur", "Jakarta"] as const,
 } as const;
 

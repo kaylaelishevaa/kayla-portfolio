@@ -13,13 +13,16 @@ export function AboutSection() {
               I learn by shipping, taking real problems end to end and seeing what pulls me in.
             </p>
             <p>
-              At Coldwell Banker Indonesia, I turn the brokerage&apos;s manual WhatsApp workflow into
-              production software, working across TypeScript and Python from the database to the box
-              it runs on.
+              For six months in 2026 I was the sole engineer at Coldwell Banker Indonesia, turning the
+              brokerage&apos;s manual WhatsApp workflow into production software, working across
+              TypeScript and Python from the database to the box it runs on.
             </p>
             <p>
-              I&apos;m also a Computer Science student at Monash University, after going
-              deep on full-stack fundamentals at Purwadhika.
+              I&apos;m now a second-year Computer Science student at Monash University Malaysia, after
+              going deep on full-stack fundamentals at Purwadhika. Lately I&apos;ve moved toward
+              perception that helps people in physical space: pose-estimation safety at Dormathon, and
+              from November a research placement putting posture and expression recognition on a
+              Unitree Go2.
             </p>
             <p>
               Away from the keyboard, you&apos;ll usually find me modelling, dancing, or MC-ing a
